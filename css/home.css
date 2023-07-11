@@ -1,0 +1,115 @@
+.container-fluid{
+    max-width: 1440px;
+}
+.login-logo{
+    padding-left: 5px;
+}
+.page-website .dropdown .btn{
+    --bs-btn-color:#6c757d(!important);
+    --bs-btn-bg:#fff (!important);
+    --bs-btn-border-color:#fff(!important);
+    --bs-btn-hover-border-color:#fff (!important);
+    --bs-btn-border-width:0px (!important);
+    color: #495057b0;
+    padding-top: 8px;
+    text-align: left;
+}
+.page-website .dropdown .btn:hover{
+    box-shadow: 0 0 0 0.2rem #ffffff;
+    border-color: transparent;
+}
+.page-website .dropdown .dropdown-menu-dark{
+    --bs-dropdown-color: #fff (!important);
+    --bs-dropdown-bg: #fff (!important);
+    --bs-dropdown-border-color: #ced4da (!important);
+    --bs-dropdown-box-shadow: 0 0 0 0.2rem #ffffff(!important);
+    --bs-dropdown-link-color: #212529 (!important);
+    --bs-dropdown-link-hover-color: #212529 (!important);
+    --bs-dropdown-divider-bg: #dee2e6 (!important);
+    --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15) (!important);
+    --bs-dropdown-link-active-color: #fff (!important);
+    --bs-dropdown-link-active-bg: #fff (!important);
+    --bs-dropdown-link-disabled-color: #fff (!important);
+    --bs-dropdown-header-color: #fff (!important);
+    background-color: white;
+    border-color: transparent;
+}
+
+.dropdown-divider{
+    border: 1.5px solid #e9ecef;
+}
+
+
+
+.page-website-items{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color:#ffffff;
+}
+
+.page-website a{
+    position: relative;
+    display: block;
+    transition: .5s;
+}
+.page-website a::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 100%;
+    left: 0;
+    transition: transform .5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+.page-website a:hover{
+    border-bottom-color: rgb(177, 163, 236);
+}
+.page-website a.active{
+    border-bottom-color: rgb(177, 163, 236);
+}
+.page-website a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+/* ___________home-page___________ */
+
+@media screen and (max-width:1540px){
+    .home-video-header > .container-fluid{
+        max-width: 100%;
+    }
+}
+.websit-home-video{
+    height: 65vh; 
+    width: 100%; 
+    object-fit: cover; 
+    object-position: center center; 
+    opacity: 1;
+}
+.home-website-heading{
+    font-family: "Goudy Old Style";
+    color: #fff;
+}
+.home-website-descripitive{
+    font-family: "Goudy Old Style";
+    color: #fff;
+    font-size: 20px;
+} 
+.home-name-on-video{
+    position: absolute;
+    padding-left: 20px;
+}
+@media screen and (min-width:678px){
+    .home-name-on-video{
+        top: 55%;
+    }
+}
+@media screen and (max-width:677px){
+    .home-name-on-video{
+        top: 60%;
+    }
+}
+
+

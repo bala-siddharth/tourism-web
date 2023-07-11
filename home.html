@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>https://tourism.com</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-    <link href="css/index.css" rel="stylesheet"></link>
+    <link href="css/home.css" rel="stylesheet"></link>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -15,39 +15,57 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="sectionHome">
-        <div class="page-website">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white pt-3 pb-3">
-                <a class="navbar-brand pl-3" href="#">SID~LLY</a>
-                <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto pl-3">
-                    <a class="nav-link page-website-items active" href="./home.html">Home<span class="sr-only">(current)</span></a>
-                    <a class="nav-link page-website-items" href="./homeAbout.html">About</a>
-                    <div class="dropdown">
-                        <a class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Travel
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                          <li><a class="dropdown-item home-dropdown" href="./tour.html" target="_blank">Tours</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="./event.html" target="_blank">Event</a></li>
-                        </ul>
+    <div class="Homepage">
+        <div class="home-nav-website">
+            <div class="page-website">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-white pt-3 pb-3">
+                                <a class="navbar-brand pl-3" href="#">SID~LLY</a>
+                                <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav ml-auto pl-3">
+                                    <a class="nav-link page-website-items active" href="./home.html">Home<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link page-website-items" href="./homeAbout.html">About</a>
+                                    <div class="dropdown">
+                                        <a class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Travel
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-dark">
+                                          <li><a class="dropdown-item home-dropdown" href="./tour.html" target="_blank">Tours</a></li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="./event.html" target="_blank">Event</a></li>
+                                        </ul>
+                                    </div>
+                                    <a class="nav-link page-website-items" href="./privateVillas.html">PrivateVillas</a>
+                                    <a class="nav-link page-website-items" href="./restaurant.html">Restaurant</a>
+                                    <a class="nav-link page-website-items" href="./homeContact.html">Contact us</a>
+                                    <a class="nav-link page-website-items" href="./login.html">Login<i class="fa-solid fa-user login-logo"></i></a>
+                                </div>
+                                </div>
+                            </nav>
+                        </div>
                     </div>
-                    <a class="nav-link page-website-items" href="./privateVillas.html">PrivateVillas</a>
-                    <a class="nav-link page-website-items" href="./restaurant.html">Restaurant</a>
-                    <a class="nav-link page-website-items" href="./homeContact.html">Contact us</a>
-                    <a class="nav-link page-website-items" href="./login.html">Login<i class="fa-solid fa-user login-logo"></i></a>
                 </div>
+            </div>
+            <div class="home-video-header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                            <div class="home-video-header2">
+                                <video class="websit-home-video" role="presentation" crossorigin="anonymous" preload="auto" muted="" loop="" autoplay="" playsinline="" tabindex="-1" src="https://video.wixstatic.com/video/4da84e_b4ca60828d674e1cb90d49b2aeb64074/1080p/mp4/file.mp4">
+                                </video>
+                                <div class="home-name-on-video">
+                                    <h2 class="home-website-heading">HEAD OUT ON YOUR <br> NEXT HIKING ADVENTURE...</h2>
+                                    <p class="home-website-descripitive">Adventure is waiting for you there.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-            <div class="video-container">
-                <video id="bgWebsite" class="bg-website" role="presentation" crossorigin="anonymous" preload="auto" muted="" loop="" autoplay="" playsinline="" tabindex="-1" src="https://video.wixstatic.com/video/4da84e_b4ca60828d674e1cb90d49b2aeb64074/1080p/mp4/file.mp4">
-                </video>
-                <h2 class="website-heading">HEAD OUT ON YOUR <br> NEXT HIKING ADVENTURE...</h2>
-                <p class="website-heading">Adventure is waiting for you there.</p>
             </div>
         </div>
     </div>

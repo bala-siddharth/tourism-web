@@ -30,14 +30,3 @@ prevBtn.addEventListener("click", function(){
 });
 
 showReview();
-
-
-
-
-
-
-
-
-
-
-
